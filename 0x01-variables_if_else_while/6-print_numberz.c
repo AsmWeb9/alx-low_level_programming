@@ -6,12 +6,11 @@
  */
 int main(void)
 {
-	int n = 122;
+	int n;
 
-	while (n >= 97)
+	for (n = 0; n <= 9; n++)
 	{
-		putchar(n);
-		n--;
+		putchar(n + 48);
 	}
 	putchar('\n');
 	return (0);
