@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 /**
- * *_memset - fills memory with a constant byte
+ * _memset - fills memory with a constant byte
  * @s: pointer to put the constant
  * @b: constant
  * @n: max bytes to use
@@ -18,7 +18,7 @@ char *_memset(char *s, char b, unsigned int n)
 }
 
 /**
- *  *_calloc - allocates memory for an array, using malloc
+ *  _calloc - allocates memory for an array, using malloc
  *  @nmemb: array length
  *  @size: size of each element
  *  Return: poiinter
