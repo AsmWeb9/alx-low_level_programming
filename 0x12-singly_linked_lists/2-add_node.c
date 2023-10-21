@@ -2,7 +2,7 @@
 
 /**
  * add_node - add a node to the start of the list
- * @heaad: address of pointer to head node
+ * @head: address of pointer to head node
  * @str: str field of node
  * Return: size of list
  */
