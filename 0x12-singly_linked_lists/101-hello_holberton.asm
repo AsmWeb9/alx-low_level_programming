@@ -1,21 +1,10 @@
-section .data
-    hello db "Hello, Holberton", 0xa, 0  ; The string to be printed with a newline character
-
-section .text
-    global main
-
-    extern printf
-
+sesction	.text
+	extern 	printf
+	global	main
 main:
-    push rbp
-    mov rdi, hello  ; Pass the address of the string to printf
-    call printf
+	mov		edi, msg
+	mov		eax, 0
+	call	printf
 
-    ; Exit the program
-    mov rax, 60      ; syscall number for exit (60)
-    xor rdi, rdi     ; status = 0
-    syscall
-
-    pop rbp
-    ret
-
+section		.data
+	msg db 'Hello! Holberton', 0xa, 0
