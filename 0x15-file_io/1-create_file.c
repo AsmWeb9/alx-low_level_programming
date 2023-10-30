@@ -14,7 +14,7 @@ int _strlen(char *s)
 		return (0);
 	while (*s++)
 		i++;
-	return (0);
+	return (i);
 }
 /**
  * create_file - creates a file
